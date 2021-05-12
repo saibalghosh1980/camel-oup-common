@@ -2,6 +2,7 @@
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+oupcommon/target/**
 
 ### STS ###
 .apt_generated
@@ -30,4 +31,12 @@ build/
 
 ### VS Code ###
 .vscode/
-oupcommon/target/classes/**
+oupcommon/target/classes/**/*.class
+oupcommon/target/classes/com/oup/common/OupcommonApplication.class
+*.class
+*.class
+oupcommon/target/classes/com/oup/common/OupcommonApplication.class
+oupcommon/target/classes/com/oup/common/policy/OUPCommonRoutePolicy.class
+oupcommon/target/classes/com/oup/common/route/InterceptRoute.class
+oupcommon/target/classes/com/oup/common/route/SampleRoute.class
+oupcommon/target/test-classes/com/oup/common/OupcommonApplicationTests.class
