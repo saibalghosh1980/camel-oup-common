@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: "Camel-OUP-Common"
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - "*"
